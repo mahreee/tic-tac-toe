@@ -3,8 +3,43 @@ body
 background-color: white;
 }
 
+td
+{
+  height: 150px;
+  width: 150px;
+  border: 5px solid #fff ;
+  border-radius: 10px;
+  background-color: #6dc1e0;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-size: 70px;
+  cursor: pointer;
+}
+table
+{
+  position: absolute;
+  margin-left: 415px;
+  top: 120px;
+}
+
+.endgame{
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: #ffa435;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 32px;
+}
 .long-shadow {
-  padding-top: 20px;
+  padding-top: 10px;
   cursor: context-menu;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
