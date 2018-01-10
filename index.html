@@ -1,35 +1,46 @@
-<!DOCTYPE HTML>
-<html lang="pl">
-<head>
+<!DOCTYPE html>
 
-  <meta charset="utf-8" />
-  <title> Tic Tac Toe </title>
-  <link rel="Stylesheet" type="text/css" href="style.css" />
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" href="style.css">
   <link async href="http://fonts.googleapis.com/css?family=Fredoka%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
+
 </head>
+
 <body>
-  <script src ="script.js"></script>
   <div class="long-shadow">TIC TAC TOE</div>
   </div>
-  <table>
-    <tr>
-      <td class="cell" id="0"></td>
-      <td class="cell" id="1"></td>
-      <td class="cell" id="2"></td>
-    </tr>
-    <tr>
-      <td class="cell" id="3"></td>
-      <td class="cell" id="4"></td>
-      <td class="cell" id="5"></td>
-    </tr>
-    <tr>
-      <td class="cell" id="6"></td>
-      <td class="cell" id="7"></td>
-      <td class="cell" id="8"></td>
-    </tr>
-  </table>
-  <div class="endgame"><div class="text"></div></div>
-  <button onclick="startGame()">Replay</button>
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+    <div class = "selectSym">
+    <p>Select symbol:</p>
+      <button onClick="selectSym('X')">X</button>
+      <button onClick="selectSym('O')">O</button>
+    </div>
+	<button onClick="startGame()">Replay</button>
+
+  <script src="script.js"></script>
 </body>
-</htm>
+</html>
