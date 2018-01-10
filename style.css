@@ -1,0 +1,19 @@
+body
+{
+background-color: white;
+}
+
+.long-shadow {
+  padding-top: 20px;
+  cursor: context-menu;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #6dc1e0 , 4px 4px 0 #6dc1e0, 5px 5px 0 #6dc1e0 , 6px 6px 0 #6dc1e0 , 7px 7px 0 #6dc1e0 , 8px 8px 0 #6dc1e0 , 9px 9px 0 #6dc1e0 , 10px 10px 0 #6dc1e0 , 11px 11px 0 #6dc1e0 , 12px 12px 0 #6dc1e0 , 13px 13px 0 #6dc1e0 , 14px 14px 0 #6dc1e0 , 15px 15px 0 #6dc1e0 , 16px 16px 0 #6dc1e0, 17px 17px 0 #6dc1e0 , 18px 18px 0 #6dc1e0 , 19px 19px 0 #6dc1e0 , 20px 20px 0 #6dc1e0 ;
+}
