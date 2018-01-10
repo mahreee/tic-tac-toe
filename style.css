@@ -7,14 +7,15 @@ td
 {
   height: 150px;
   width: 150px;
-  border: 5px solid black ;
+  border: 5px solid #6dc1e0 ;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white;
   text-align: center;
   vertical-align: middle;
   font-family: "Fredoka One", Helvetica, sans-serif;
   font-size: 70px;
   cursor: pointer;
+  color: #7a7977;
 }
 table
 {
@@ -26,8 +27,8 @@ table
 .endgame{
   display: none;
   width: 200px;
-  top: 120px;
-  background-color: #ffa435;
+  top: 300px;
+  background-color: #7a7977;
   position: absolute;
   left: 50%;
   margin-left: -100px;
@@ -37,6 +38,10 @@ table
   border-radius: 5px;
   color: white;
   font-size: 32px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  -webkit-box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
+-moz-box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
+box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
 }
 .long-shadow {
   padding-top: 10px;
@@ -51,4 +56,50 @@ table
   -o-text-overflow: clip;
   text-overflow: clip;
   text-shadow: 3px 3px 0 #6dc1e0 , 4px 4px 0 #6dc1e0, 5px 5px 0 #6dc1e0 , 6px 6px 0 #6dc1e0 , 7px 7px 0 #6dc1e0 , 8px 8px 0 #6dc1e0 , 9px 9px 0 #6dc1e0 , 10px 10px 0 #6dc1e0 , 11px 11px 0 #6dc1e0 , 12px 12px 0 #6dc1e0 , 13px 13px 0 #6dc1e0 , 14px 14px 0 #6dc1e0 , 15px 15px 0 #6dc1e0 , 16px 16px 0 #6dc1e0, 17px 17px 0 #6dc1e0 , 18px 18px 0 #6dc1e0 , 19px 19px 0 #6dc1e0 , 20px 20px 0 #6dc1e0 ;
+}
+
+.selectSym{
+  display: none;
+  width: 220px;
+  top: 220px;
+  background-color: #6dc1e0;
+  position: absolute;
+  left: 50%;
+  margin-left: -110px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 32px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+}
+
+.selectSym button{
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-size:  50px;
+  width: 70px;
+  background-color: white;
+  color: #7a7977;
+  border-radius: 5px;
+}
+
+.selectSym  button:first-of-type {
+  margin-right: 10px;
+}
+.selectSym  button:last-of-type {
+  margin-left: 10px;}
+
+.startGame
+{
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.startGame button{
+  color: white;
+  background-color: #7a7977;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-size:  32px;
+  border-radius: 5px;
 }
