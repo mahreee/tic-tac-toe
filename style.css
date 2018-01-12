@@ -17,11 +17,12 @@ td
   cursor: pointer;
   color: #7a7977;
 }
+
 table
 {
-  position: absolute;
-  margin-left: 415px;
-  top: 120px;
+position: absolute;
+ margin-left: 415px;
+ top: 120px;
 }
 
 .endgame{
@@ -43,8 +44,10 @@ table
 -moz-box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
 box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
 }
+
 .long-shadow {
   padding-top: 10px;
+  margin-left: auto;
   cursor: context-menu;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -64,8 +67,7 @@ box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
   top: 220px;
   background-color: #6dc1e0;
   position: absolute;
-  left: 50%;
-  margin-left: -110px;
+  margin-left: 550px;
   padding-top: 10px;
   padding-bottom: 50px;
   text-align: center;
@@ -73,6 +75,7 @@ box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
   color: white;
   font-size: 32px;
   font-family: "Fredoka One", Helvetica, sans-serif;
+  float: left;
 }
 
 .selectSym button{
@@ -90,8 +93,7 @@ box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
 .selectSym  button:last-of-type {
   margin-left: 10px;}
 
-.startGame
-{
+.startGame{
   margin-left: 200px;
   margin-top: 150px;
 }
@@ -102,4 +104,13 @@ box-shadow: 10px 18px 138px -17px rgba(77,76,77,1);
   font-family: "Fredoka One", Helvetica, sans-serif;
   font-size:  32px;
   border-radius: 5px;
+}
+
+.startGame button:hover{
+background-color: #6dc1e0;
+}
+
+.container{
+margin-left: auto;
+float: left;
 }
